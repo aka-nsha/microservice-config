@@ -1,8 +1,7 @@
-
 spring:
  application:
-  name: Config-Dev
-  
+  name: Config-Default
+
 eureka:
   instance:
      prefer-ip-address: true
@@ -11,4 +10,3 @@ eureka:
      register-with-eureka: true
      service-url:
         defaultZone: http://localhost:8761/eureka
-
